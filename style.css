@@ -1,0 +1,109 @@
+body {
+    background-color: #0b0b0b;
+    margin: 0;
+    display: flex; 
+    justify-content: center;
+    font-family: Nobile;
+    
+}
+
+#bodycenter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    max-width: 700px;
+    background-color: rgb(21, 21, 21);
+    color: white;
+    border-radius: 30px;
+    filter: drop-shadow(0px 0px 50px #25776f82);
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+    display: grid;
+    justify-content: center;
+}
+
+#logo {
+    max-width: 100%;
+    transition: all 0.5s;
+}
+#logo:hover{
+    filter: drop-shadow(0px 0px 10px #25776f6e);
+    cursor: pointer;
+}
+
+#head-div {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+#banner {
+    max-width: 100%;
+    border-radius: 30px 30px 0 0;
+}
+#hd-1{
+
+    width: 100px;
+    height: 100%;
+    padding: 60px 50px 0 0;
+}
+
+#hd-2{
+    width: 50%;
+    height: 100%;
+    padding: 3px 0 0 0;
+}
+
+#usertag{
+    opacity: 0.7;
+    font-size: 20px;
+    padding: 4px 0 0 20px;
+    margin: 0 0 20px 0;
+    transition: all 0.4s;
+
+}
+#usertag:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+#content{
+    width: 95%;
+    margin-left: 5%;
+
+    height: 500px;
+}
+
+#hd-nametag{
+    display: flex;
+    padding: 60px 0 0 0;
+}
+#hd-nametag h1{
+    margin: 0;
+    padding: 0;
+}
+#contact-icons{
+    width: auto;
+    padding: 0 0 70px 70px
+}
+.soc-icon{
+    padding: 5px 20px 5px 20px;
+    transition: all 0.3s;
+    width: 30px;
+}
+.soc-icon:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+#content span{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
