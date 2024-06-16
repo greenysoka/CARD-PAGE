@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 body {
     background-color: #080808;
     margin: 0;
@@ -5,6 +8,20 @@ body {
     justify-content: center;
     font-family: Nobile;
     
+}
+h1{
+    font-size: 28px;
+}
+h2{
+    font-size: 22px;
+}
+h3{
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+}
+span{
+    font-size: 16px;
 }
 
 #bodycenter {
@@ -19,7 +36,7 @@ body {
     background-color: rgb(21, 21, 21);
     color: white;
     border-radius: 30px;
-    filter: drop-shadow(0px 0px 50px #25776f56);
+    filter: drop-shadow(0px 0px 50px #25776f40);
     height: auto;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -27,6 +44,11 @@ body {
     display: grid;
     justify-content: center;
     border: 5px solid #25776f82;
+    transition: all 0.5s;
+}
+#main:hover{
+    scale: 1.01;
+    filter: drop-shadow(0px 0px 80px #258d8352);
 }
 
 #logo {
@@ -76,10 +98,10 @@ body {
 }
 
 #content{
-    width: 95%;
-    margin-left: 5%;
+    width: 70%;
+    margin-left: 7%;
 
-    height: 1000px;
+    height: 1800px;
 }
 
 #hd-nametag{
@@ -102,12 +124,46 @@ body {
 .soc-icon:hover{
     cursor: pointer;
     opacity: 0.6;
+    scale: 1.15;
 }
 
 #content span{
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+}
+
+#navbar a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.559);
+    padding: 0 20px 0 0px;
+    transition: all 0.3s;
+}
+#navbar a:hover{
+    color: white;
+}
+#navbar{
+    padding: 0 0 20px 0;
+}
+
+#content a{
+    text-decoration: none;
+    color : #17cebc;
+    transition: all 0.3s;
+
+}
+#content a:hover{
+    text-decoration: none;
+    color : rgba(255, 255, 255, 0.474);
+    
+}
+.projectimg{
+    width: 40px;
+    margin: 0 20px 0 0;
+    transition: all 0.3s;
+}
+.projectimg:hover{
+    scale: 1.2;
 }
 
 @media (max-width: 768px){
