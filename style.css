@@ -9,6 +9,11 @@ body {
     font-family: Nobile;
     
 }
+
+#copied{
+    position: absolute;
+    width: 200px;
+}
 h1{
     font-size: 28px;
 }
@@ -24,6 +29,20 @@ span{
     font-size: 16px;
 }
 
+.mainbutton{
+    border: thin solid transparent;
+    padding: 10px 25px 10px 25px;
+    border-radius: 14px;
+    color: white;
+    background-color: rgb(40, 40, 40);
+    
+}
+.mainbutton:hover{
+    
+    cursor:not-allowed;
+    background-color: #25776f40;
+}
+
 #bodycenter {
     width: 100%;
     display: flex;
@@ -31,25 +50,46 @@ span{
     align-items: center;
 }
 
+
 #main {
     max-width: 700px;
     background-color: rgb(21, 21, 21);
     color: white;
     border-radius: 30px;
-    filter: drop-shadow(0px 0px 50px #25776f40);
     height: auto;
     margin-top: 100px;
     margin-bottom: 100px;
-    
     display: grid;
     justify-content: center;
     border: 5px solid #25776f82;
-    transition: all 0.5s;
+    transition: all 0.4s;
+    box-shadow: 15px 15px 80px #099e8f4a, -15px -15px 80px #37d83c3a;
+    animation: rotateShadow 5s infinite linear;
+
 }
-#main:hover{
-    scale: 1.01;
-    filter: drop-shadow(0px 0px 80px #258d8352);
+
+
+@keyframes rotateShadow {
+    0% {
+        box-shadow: 15px 15px 80px #099e8f4a, -15px -15px 80px #37d83c3a;
+    }
+    25% {
+        box-shadow: 15px -15px 80px #099e8f4a, -15px 15px 80px #37d83c3a;
+    }
+    50% {
+        box-shadow: -15px -15px 80px #099e8f4a, 15px 15px 80px #37d83c3a;
+    }
+    75% {
+        box-shadow: -15px 15px 80px #099e8f4a, 15px -15px 80px #37d83c3a;
+    }
+    100% {
+        box-shadow: 15px 15px 80px #099e8f4a, -15px -15px 80px #37d83c3a;
+    }
 }
+
+
+
+
 
 #logo {
     max-width: 100%;
@@ -93,13 +133,27 @@ span{
 
 }
 #usertag:hover{
-    opacity: 1;
+    color: #17cebc;
+    cursor: pointer;
+}
+#usertag-bottom{
+    opacity: 0.7;
+    font-size: 20px;
+    padding: 4px 0 0 20px;
+    margin: 0 0 20px 0;
+    transition: all 0.4s;
+    color: #289186;
+
+}
+#usertag-bottom:hover{
+    color: #00ffe5;
     cursor: pointer;
 }
 
 #content{
     width: 70%;
     margin-left: 7%;
+    margin-bottom: 50px;
 
     height: auto;
 }
@@ -124,7 +178,7 @@ span{
 .soc-icon:hover{
     cursor: pointer;
     opacity: 0.6;
-    scale: 1.15;
+    /* scale: 1.15; */
 }
 
 #content span{
@@ -162,12 +216,9 @@ span{
     margin: 0 20px 0 0;
     transition: all 0.3s;
 }
-.projectimg:hover{
-    scale: 1.2;
-    cursor: pointer;
-}
 
-@media (max-width: 768px){
+
+@media (max-width: 600px){
     #main {
         max-width: 100%;
         background-color: rgb(21, 21, 21);
@@ -205,7 +256,8 @@ span{
     }
     #hd-nametag{
         display: grid;
-        padding: 60px 0 0 0;
+        width: 50%;
+        padding: 60px 0 0 10px;
     }
     #usertag{
         opacity: 0.7;
@@ -213,25 +265,45 @@ span{
         padding: 4px 0 0 0px;
         margin: 0 0 20px 0;
         transition: all 0.4s;
+        
     
+    }
+    #hd-infos{
+        width: 100%;
+        display: flex;
     }
     #hd-1{
 
-        width: 100px;
-        height: 100%;
-        padding: 60px 40px 0 30px;
+        width: 100%;
+        height: auto;
+        padding: 0;
+        position: absolute;
+        display: grid;
+        justify-content: center;
+        top: 2%;
+        transition: all 0.5s;
+        /* top: 0;
+        left: 50%;
+        transform: translate(-50% , -50%); */
+    }
+    #logo{
+        width: 110px;
+        height: auto;
+        
+        filter: drop-shadow(0px 0px 10px #080808);
+        transition: all 0.5s;
     }
     #hd-2{
-        width: 35%;
-        height: 100%;
-        padding: 3px 0 0 0;
-        line-height: 1.5;
+        width: auto;
+        padding-left: -30px;
+        transition: all 0.5s;
+        /* position: relative; */
     }
     #head-div {
         display: flex;
-        justify-content: center;
-        height: 270px;
+        height: auto;
     }
+    
     #contact-icons{
         width: 100%;
         display: flex;
@@ -263,11 +335,14 @@ span{
     #navbar{
         padding: 30px 0 30px 0;
         width: 100%;
+        min-width: 100%;
         display: flex;
         justify-content: space-between;
     }
     .p-info{
         font-size: 10px;
+        width: auto;
+        margin: 10px;
     }
     
 }
