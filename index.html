@@ -25,7 +25,7 @@
                 <div id="hd-2">
                     <div id="hd-nametag">
                         <!-- <img src="copied img.png" alt="copied" id="copied"> -->
-                        <h1>GREENY</h1> <span id="usertag">@greenydev</span>
+                        <h1 id="greeny">GREENY</h1><img src="fulcrum sign.png" alt="fulcrum" id="fulcrum" ondblclick="FULCRUM()"> <span id="usertag">@greenydev</span>
                     </div>
                     <div id="hd-infos">
                         <span class="p-info">Designer / Programmer / Gamer</span><br>
@@ -126,6 +126,8 @@
                 
                 <h3 id="usertag-bottom">» greenydev «</h3><br>
                 <button class="mainbutton">Discord server in progress!</button>
+                <br><br>
+                
 
                 
             </div>
@@ -150,6 +152,46 @@
                 console.error('Issue: ', error);
             });
         });
+
+
+        function FULCRUM(){
+            const main = document.getElementById('main');
+            main.style.boxShadow = '15px 15px 140px #1683c1, -15px -15px 140px #e66700';
+            main.style.animation = 'rotateShadowFulcrum 5s infinite linear';
+            
+            const image = document.getElementById('banner');
+            image.src = 'ahsokabanner.gif';
+            image.style.width = "700px";
+            image.style.height = "auto";
+
+            const pfp = document.getElementById('logo');
+
+            const logoDiv = document.getElementById('logo');
+
+
+
+            pfp.src = "ahsoka.jpg";
+            pfp.style.borderRadius = "100%";
+
+            const h1Element = document.getElementById('usertag');
+            h1Element.textContent = 'ahsoka'; 
+
+            const fulcrum = document.getElementById('fulcrum');
+            fulcrum.style.display = "None";
+
+
+            const links = document.querySelectorAll('#content a');
+            links.forEach(link => {
+                link.style.textDecoration = 'none';
+                link.style.color = '#e66700';
+                link.style.transition = 'all 0.3s';
+            });
+
+            const usertag = document.getElementById('usertag-bottom');
+            usertag.style.color = '#e66700';
+
+
+        }
     </script>
 </body>
 </html>

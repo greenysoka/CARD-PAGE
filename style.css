@@ -1,3 +1,12 @@
+
+
+#fulcrum{
+    height: 35px;
+    margin-left: 10px;
+    transition: all 0.3s;
+}
+
+
 html {
     scroll-behavior: smooth;
   }
@@ -40,7 +49,6 @@ span{
 .mainbutton:hover{
     
     cursor:not-allowed;
-    background-color: #25776f40;
 }
 
 #bodycenter {
@@ -61,10 +69,12 @@ span{
     margin-bottom: 100px;
     display: grid;
     justify-content: center;
-    border: 5px solid #25776f82;
+    /* border: 5px solid #25776f82; */
     transition: all 0.4s;
-    box-shadow: 15px 15px 140px #0a6e644a, -15px -15px 140px #1a841d5a;
-    animation: rotateShadow 5s infinite linear;
+    box-shadow: 15px 15px 140px #0a6e644a, -15px -15px 140px #1a841d5a; 
+    /* animation: rotateShadow 5s infinite linear;
+    /* box-shadow: 15px 15px 140px #1683c1, -15px -15px 140px #e66700;
+    animation: rotateShadowFulcrum 5s infinite linear; */
 
 }
 
@@ -87,8 +97,29 @@ span{
     }
 }
 
+@keyframes rotateShadowFulcrum {
+    0% {
+        box-shadow: 15px 15px 140px #1683c1, -15px -15px 140px #e66700;
+    }
+    25% {
+        box-shadow: 15px -15px 140px #1683c1, -15px 15px 140px #e66700;
+    }
+    50% {
+        box-shadow: -15px -15px 140px #1683c1, 15px 15px 140px #e66700;
+    }
+    75% {
+        box-shadow: -15px 15px 140px #1683c1, 15px -15px 140px #e66700;
+    }
+    100% {
+        box-shadow: 15px 15px 140px #1683c1, -15px -15px 140px #e66700;
+    }
+}
 
 
+header{
+    width: auto;
+    height: auto;
+}
 
 
 #logo {
@@ -224,7 +255,7 @@ span{
         background-color: rgb(21, 21, 21);
         color: white;
         border-radius: 30px;
-        filter: drop-shadow(0px 0px 0px #258d8352);
+        filter: drop-shadow(0px 0px 0px #00000052);
         height: auto;
         margin-top: 10px;
         margin-bottom: 20px;
