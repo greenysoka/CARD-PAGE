@@ -1,9 +1,11 @@
 #arrowup{
     width: 40px;
+    transition: all 0.3s;
 
 }
 #arrowup:hover{
     cursor: pointer;
+    opacity: 0.8;
 }
 
 #div-projects{
@@ -56,8 +58,8 @@
     padding: 30px 0 50px 0;
 }
 #fulcrum{
-    height: 35px;
-    margin-left: 10px;
+    height: 40px;
+    margin: 0 0px 0 15px;
     transition: all 0.3s;
 }
 
@@ -213,8 +215,8 @@ header{
 #usertag{
     opacity: 0.7;
     font-size: 20px;
-    padding: 4px 0 0 20px;
-    margin: 0 0 20px 0;
+    padding: 4px 0 0 0px;
+    margin: 0 0 20px 15px;
     transition: all 0.4s;
 
 }
@@ -345,7 +347,7 @@ header{
         position: absolute;
         display: grid;
         justify-content: center;
-        top: 2%;
+        top: 70px;
         transition: all 0.5s;
         /* top: 0;
         left: 50%;
