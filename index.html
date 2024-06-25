@@ -46,15 +46,17 @@
             </div>
 
             <div id="content">
-                <div id="navbar">
-                    <a href="#myprojects">My Projects</a>
-                    <a href="#aboutme">About me</a>
-                    <a href="#contact">Contact</a>
-                </div>
-                <h2 id="">Hello there!</h2>
+                <h2 id="hellothere">Hello there!</h2>
                 <span>It's nice to see you!</span>
                 <span>This is my personal card-page where you can find out more about me and my projects :)</span><br><br><br>
-                <h1 id="myprojects">My Projects</h1>
+
+                <div id="navbar">
+                    <span onclick="myprojects()" id="myprojectsspan">My Projects</span>
+                    <span onclick="aboutme()" id="aboutmespan">About me</span>
+                    <span onclick="contact()" id="contactspan">Contact</span>
+                </div>
+            <div id="div-projects">
+    
                 <span>Here are all my previous and current projects listed. Take your time, have a look!</span>
                 <br><br>
                 <h2>Running Projects:</h2><br>
@@ -62,9 +64,13 @@
                 <h3><img src="projects/crimebotv4.png" alt="crimebot" class="projectimg">CRIMEBOT</h3>
                 <span>A self-made discord bot for the <a href="https://discord.gg/y3KKCGAqhm" target="_blank">Crime Master Community Discord Server</a>!</span>
                 <span>It manages the full discord server and supports the team for every task! It has a fully customized ticket system and a lot of commands!</span><br><br>
+                
+                <h3><img src="projects/starwarsgalaxy.png" alt="swgbot" class="projectimg">Star Wars Galaxy</h3>
+                <span>The SWG Bot is a little helper for the amazing <a href="https://discord.gg/babyyoda" target="_blank">Star Wars Galaxy</a> Community! Custom ticket system and some community commands are integrated!</span>
+                <br><br>
 
-                <h3><img src="projects/BF-PFP 2.png" alt="bfbot" class="projectimg">BF Management Bot</h3>
-                <span>A discord bot for a great FiveM Roleplay server! It manages tickets, trainings and more. (Invite link is private)</span>
+                <h3><img src="projects/BF-PFP 2.png" alt="bfbot" class="projectimg">BF Management</h3>
+                <span>A custom discord bot for the professional fire department Rheinstadt server of the FiveM Roleplay Server <a href="https://discord.gg/gamingliferp" target="_blank">GamingLife</a>! It manages tickets, trainings and more. </span>
                 <br><br>
 
                 <h3><img src="projects/hm2.png" alt="hypebot" class="projectimg">HypeBot</h3>
@@ -72,11 +78,9 @@
                 <span>It manages it's own ticket-system, verify-system and a bunch of commands!</span>
                 <br><br>
 
-                <h3><img src="projects/starwarsgalaxy.png" alt="swgbot" class="projectimg">SWG Bot</h3>
-                <span>The SWG Bot is a little helper for the amazing <a href="https://discord.gg/babyyoda" target="_blank">Star Wars Galaxy</a> Community! Custom ticket system and some community commands are integrated!</span>
-                <br><br>
 
-                <h3><img src="projects/yourshift.png" alt="yourshift" class="projectimg">YourShift LSPDFR Plugin</h3>
+
+                <h3><img src="projects/yourshift.png" alt="yourshift" class="projectimg">YourShift - LSPDFR Plugin</h3>
                 <span><a href="https://www.lcpdfr.com/downloads/gta5mods/scripts/45398-yourshift/" target="_blank">YourShift</a> is a GTA 5 LSPDFR Plugin to manage your shifts when you're on patrol!</span>
                 <br><br>
 
@@ -93,9 +97,16 @@
 
                 <h3><img src="projects/LOGO FINAL SVG.png" alt="gbyde" class="projectimg">GBYDE</h3>
                 <span>The fully customizable GBYDE Discord Bot is planned to be a bot for different servers and can be configured on a dashboard. There will be an option soon to sign up for the beta-testing-programm!</span>
-                <br><br><br><br>
-                <h1 id="aboutme">About me</h1>
-                <h3>Favourite Movies & shows</h3>
+                <br><br><br>
+                <a href="#hellothere"><img src="arrowup.png" alt="arrowup" id="arrowup"></a><br>
+
+            </div>
+            <div id="div-aboutme">
+                <h3>Languages</h3>
+                <span>➥ 🗣️ German / English</span><br>
+                <span>➥ 💻 Python, JS, HTML/CSS, C#</span><br><br>
+
+                <h3>Favourite Movies & shows</h3>              
                 <span>➥ ⭐ Star Wars Rouge One & Revenge of the Sith</span><br>
                 <span>➥ 🚨 The Rookie & 911</span><br>
                 <span>➥ 👥 Two and a half Men</span><br>
@@ -105,7 +116,6 @@
                 <h3>Favourite Franchises</h3>
                 <span>➥ ⭐ Star Wars</span><br>
                 <span>➥ ⚡ Marvel</span><br>
-                <span>➥ 🤖 Transformers</span><br>
                 <span>➥ 🌍 Avatar</span><br><br>
 
                 <h3>Favourite Games</h3>
@@ -116,17 +126,30 @@
 
 
                 <h3>Favourite Fictional Characters</h3>
-                <span>➥ Ahsoka Tano</span><br>
-                <span>➥ Tony Stark</span><br>
-                <span>➥ Tim Bradford</span>
-                <br><br><br><br>
-                <h1 id="contact">Contact & Order</h1>
+                <span>➥ 🟠 Ahsoka Tano</span><br>
+                <span>➥ 💥 Tony Stark</span><br>
+                <span>➥ 👮‍♂️ Tim Bradford</span>
+                <br><br><br>
+                <a href="#hellothere"><img src="arrowup.png" alt="arrowup" id="arrowup"></a><br>
+
+                <!-- <h3>Favourite Actors</h3>
+                <span>➥ Robert Downey Jr.</span><br>
+                <span>➥ Tom Holland</span><br>
+                <span>➥ Chris Pratt</span> -->
+                <br>
+            </div>
+            <div id="div-contact">
+                
+
                 <span>You want to contact me? Or order your own customized discord bot? Great!</span>
-                <span>Send me a direct message or a friend request on discord!</span><br><br>
+                <span>Send me a direct message or a friend request on discord!</span><br>
+                <span>Click on my name to copy it to your clipboard:</span><br><br>
                 
                 <h3 id="usertag-bottom">» greenydev «</h3><br>
                 <button class="mainbutton">Discord server in progress!</button>
+                <br><br><br><span>May the force be with you! ⭐</span>
                 <br><br>
+            </div>
                 
 
                 
@@ -191,6 +214,49 @@
             usertag.style.color = '#e66700';
 
 
+        }
+
+        function myprojects(){
+            const content = document.getElementById("div-projects");
+            content.style.display = "block";
+            const content1 = document.getElementById("div-aboutme");
+            content1.style.display = "none";
+            const content2 = document.getElementById("div-contact");
+            content2.style.display = "none";
+            const navbarspan = document.getElementById("myprojectsspan");
+            navbarspan.style.color = "#17cebc";
+            const navbarspan1 = document.getElementById("aboutmespan");
+            navbarspan1.style.color = "white";
+            const navbarspan2 = document.getElementById("contactspan");
+            navbarspan2.style.color = "white";
+        }
+        function aboutme(){
+            const content = document.getElementById("div-projects");
+            content.style.display = "none";
+            const content1 = document.getElementById("div-aboutme");
+            content1.style.display = "block";
+            const content2 = document.getElementById("div-contact");
+            content2.style.display = "none";
+            const navbarspan = document.getElementById("myprojectsspan");
+            navbarspan.style.color = "white";
+            const navbarspan1 = document.getElementById("aboutmespan");
+            navbarspan1.style.color = "#17cebc";
+            const navbarspan2 = document.getElementById("contactspan");
+            navbarspan2.style.color = "white";
+        }
+        function contact(){
+            const content = document.getElementById("div-projects");
+            content.style.display = "none";
+            const content1 = document.getElementById("div-aboutme");
+            content1.style.display = "none";
+            const content2 = document.getElementById("div-contact");
+            content2.style.display = "block";
+            const navbarspan = document.getElementById("myprojectsspan");
+            navbarspan.style.color = "white";
+            const navbarspan1 = document.getElementById("aboutmespan");
+            navbarspan1.style.color = "white";
+            const navbarspan2 = document.getElementById("contactspan");
+            navbarspan2.style.color = "#17cebc";
         }
     </script>
 </body>
