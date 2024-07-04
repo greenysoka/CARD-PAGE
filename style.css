@@ -3,6 +3,27 @@
     transition: all 0.3s;
 
 }
+
+.official{
+    height: 24px;
+    transition: all 0.3s;
+    margin: 0 0 0 20px;
+}
+.official:hover{
+    cursor: pointer;
+    filter: drop-shadow(0 0 8px #28918772);
+}
+
+.partner{
+    height: 24px;
+    transition: all 0.3s;
+    margin: 0 0 0 20px;
+}
+.partner:hover{
+    cursor: pointer;
+}
+
+
 #arrowup:hover{
     cursor: pointer;
     opacity: 0.8;
@@ -104,11 +125,14 @@ span{
     border-radius: 8px;
     color: white;
     background-color: rgb(40, 40, 40);
+    transition: all 0.3s;
     
 }
 .mainbutton:hover{
-    
-    cursor:not-allowed;
+    cursor: pointer;
+    background-color: #17cebc;
+    color: rgb(40, 40, 40);
+    scale: 1.1;
 }
 
 #bodycenter {
@@ -130,7 +154,7 @@ span{
     display: grid;
     justify-content: center;
     /* border: 5px solid #25776f82; */
-    transition: all 0.4s;
+    transition: all 0.3s;
     filter: drop-shadow(0px 0px 100px #25776f85);
     /* box-shadow: 15px 15px 140px #0a6e644a, -15px -15px 140px #1a841d5a;  */
     /* animation: rotateShadow 5s infinite linear;
@@ -186,7 +210,7 @@ header{
 
 #logo {
     max-width: 100%;
-    transition: all 0.5s;
+    transition: all 0.3s;
 }
 #logo:hover{
     filter: drop-shadow(0px 0px 10px #25776f6e);
@@ -222,7 +246,7 @@ header{
     font-size: 20px;
     padding: 4px 0 0 0px;
     margin: 0 0 20px 15px;
-    transition: all 0.4s;
+    transition: all 0.3s;
 
 }
 #usertag:hover{
@@ -234,7 +258,7 @@ header{
     font-size: 20px;
     padding: 4px 0 0 20px;
     margin: 0 0 20px 0;
-    transition: all 0.4s;
+    transition: all 0.3s;
     color: #289186;
 
 }
