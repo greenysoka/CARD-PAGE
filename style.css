@@ -315,6 +315,11 @@ header{
 
 
 @media (max-width: 600px){
+    #fulcrum{
+        height: 25px;
+        margin: 0 0px 0 15px;
+        transition: all 0.3s;
+    }
     #main {
         max-width: 100%;
         background-color: rgb(21, 21, 21);
@@ -343,6 +348,24 @@ header{
         display: flex;
         align-items: center;
     }
+    .official{
+        height: 16px;
+        transition: all 0.3s;
+        margin: 0 0 0 20px;
+    }
+    .official:hover{
+        cursor: pointer;
+        filter: drop-shadow(0 0 8px #28918772);
+    }
+    
+    .partner{
+        height: 16px;
+        transition: all 0.3s;
+        margin: 0 0 0 20px;
+    }
+    .partner:hover{
+        cursor: pointer;
+    }
     span{
         font-size: 14px;
     }
@@ -351,14 +374,15 @@ header{
         border-radius: 30px 30px 0 0;
     }
     #hd-nametag{
-        display: grid;
+        display: flex;
         width: 50%;
-        padding: 60px 0 0 10px;
+        padding: 100px 0 0 10px;
+        flex-wrap: wrap;
     }
     #usertag{
         opacity: 0.7;
         font-size: 13px;
-        padding: 4px 0 0 0px;
+        padding: 4px 0 0 0;
         margin: 0 0 20px 0;
         transition: all 0.4s;
         
