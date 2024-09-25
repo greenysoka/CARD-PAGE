@@ -347,7 +347,7 @@ header{
         background-color: rgb(21, 21, 21);
         color: white;
         border-radius: 30px;
-        filter: drop-shadow(0px 0px 0px #00000052);
+        filter: drop-shadow(0px 0px 0px #2E5B67);
         height: auto;
         margin-top: 10px;
         margin-bottom: 20px;
@@ -377,7 +377,7 @@ header{
     }
     .official:hover{
         cursor: pointer;
-        filter: drop-shadow(0 0 8px #28918772);
+        filter: drop-shadow(0 0 8px #2E5B67);
     }
     
     .partner{
@@ -432,7 +432,7 @@ header{
         width: 110px;
         height: auto;
         
-        filter: drop-shadow(0px 0px 10px #080808);
+        filter: drop-shadow(0px 0px 10px #2E5B67);
         transition: all 0.5s;
     }
     #hd-2{
