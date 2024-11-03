@@ -171,7 +171,7 @@ span{
     justify-content: center;
     /* border: 5px solid #25776f82; */
     transition: all 0.3s;
-    filter: drop-shadow(0px 0px 100px #25776f85);
+    filter: drop-shadow(0px 0px 50px #487cb192);
     /* box-shadow: 15px 15px 140px #0a6e644a, -15px -15px 140px #1a841d5a;  */
     /* animation: rotateShadow 5s infinite linear;
     /* box-shadow: 15px 15px 140px #1683c1, -15px -15px 140px #e66700;
