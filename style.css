@@ -54,7 +54,7 @@ br{
 }
 
 #myprojectsspan{
-    color : #17cebc;
+    color: #056f99;
 }
 
 #navbar span{
@@ -69,23 +69,14 @@ br{
     cursor: pointer;
 }
 
-/* #navbar a{
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.559);
-    padding: 0 20px 0 0px;
-    transition: all 0.3s;
-}
-#navbar a:hover{
-    color: white;
-} */
 #content a{
     text-decoration: none;
     transition: all 0.3s;
-    color: #289186;
+    color: #056f99;
 
 }
 #content a:hover{
-    color : rgba(255, 255, 255, 0.474);
+    color : rgba(78, 216, 250, 0.719);
 }
 
 
@@ -112,6 +103,7 @@ body {
     display: flex; 
     justify-content: center;
     font-family: Nobile;
+    transition: all 0.3s;
     
 }
 
@@ -146,8 +138,8 @@ span{
 }
 .mainbutton:hover{
     cursor: pointer;
-    background-color: #17cebc;
-    color: rgb(40, 40, 40);
+    background-color: #056f99;
+    color: rgb(223, 223, 223);
     scale: 1.1;
 }
 
@@ -169,14 +161,8 @@ span{
     margin-bottom: 100px;
     display: grid;
     justify-content: center;
-    /* border: 5px solid #25776f82; */
     transition: all 0.3s;
     filter: drop-shadow(0px 0px 50px #487cb192);
-    /* box-shadow: 15px 15px 140px #0a6e644a, -15px -15px 140px #1a841d5a;  */
-    /* animation: rotateShadow 5s infinite linear;
-    /* box-shadow: 15px 15px 140px #1683c1, -15px -15px 140px #e66700;
-    animation: rotateShadowFulcrum 5s infinite linear; */
-    /* border: 3px solid #25776f82; */
 
 }
 
@@ -230,7 +216,7 @@ header{
     user-select: none;
 }
 #logo:hover{
-    filter: drop-shadow(0px 0px 20px #25776f6e);
+    filter: drop-shadow(0px 0px 20px #056f99);
     cursor: pointer;
 }
 
@@ -269,7 +255,7 @@ header{
 
 }
 #usertag:hover{
-    color: #17cebc;
+    color: #056f99;
     cursor: pointer;
 }
 #usertag-bottom{
@@ -278,11 +264,11 @@ header{
     padding: 4px 0 0 20px;
     margin: 0 0 20px 0;
     transition: all 0.3s;
-    color: #289186;
+    color: #487cb192;
 
 }
 #usertag-bottom:hover{
-    color: #00ffe5;
+    color: #487cb192;
     cursor: pointer;
 }
 
@@ -431,8 +417,7 @@ header{
     #logo{
         width: 110px;
         height: auto;
-        
-        filter: drop-shadow(0px 0px 10px #2E5B67);
+
         transition: all 0.5s;
     }
     #hd-2{
@@ -466,7 +451,6 @@ header{
     }
     #navbar a{
         text-decoration: none;
-        /* color : #17cebc; */
         transition: all 0.3s;
         font-size: 13px;
         padding: 0;
@@ -490,4 +474,14 @@ header{
         margin: 10px;
     }
     
+}
+
+.mp-contentitem {
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.mp-contentitem:hover {
+    background-color: rgb(29, 29, 29);
 }
