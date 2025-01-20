@@ -16,7 +16,7 @@ br{
 }
 .official:hover{
     cursor: pointer;
-    filter: drop-shadow(0 0 8px #28918772);
+    filter: drop-shadow(0 0 8px #999899);
 }
 
 .partner{
@@ -27,7 +27,7 @@ br{
 }
 .partner:hover{
     cursor: pointer;
-    filter: drop-shadow(0 0 8px #ffffff72);
+    filter: drop-shadow(0 0 8px #999899);
 }
 
 
@@ -54,7 +54,7 @@ br{
 }
 
 #myprojectsspan{
-    color: #056f99;
+    color: #999899;
 }
 
 #navbar span{
@@ -72,11 +72,11 @@ br{
 #content a{
     text-decoration: none;
     transition: all 0.3s;
-    color: #056f99;
+    color: #999899;
 
 }
 #content a:hover{
-    color : rgba(78, 216, 250, 0.719);
+    color : #999899;
 }
 
 
@@ -86,7 +86,7 @@ br{
 #navbar span{
     font-size: 20px;
 }
-#fulcrum{
+#whitesoka{
     height: 40px;
     margin: 0 0px 0 15px;
     transition: all 0.3s;
@@ -102,7 +102,7 @@ body {
     margin: 0;
     display: flex; 
     justify-content: center;
-    font-family: Nobile;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     transition: all 0.3s;
     
 }
@@ -138,7 +138,7 @@ span{
 }
 .mainbutton:hover{
     cursor: pointer;
-    background-color: #056f99;
+    background-color:#999899;
     color: rgb(223, 223, 223);
     scale: 1.1;
 }
@@ -162,45 +162,8 @@ span{
     display: grid;
     justify-content: center;
     transition: all 0.3s;
-    filter: drop-shadow(0px 0px 50px #487cb192);
+    filter: drop-shadow(0px 0px 50px #EBEBEB);
 
-}
-
-
-/* @keyframes rotateShadow {
-    0% {
-        box-shadow: 15px 15px 140px #0a6e644a, -15px -15px 140px #1a841d5a;
-    }
-    25% {
-        box-shadow: 15px -15px 140px #0a6e644a, -15px 15px 140px #1a841d5a;
-    }
-    50% {
-        box-shadow: -15px -15px 140px #0a6e644a, 15px 15px 140px #1a841d5a;
-    }
-    75% {
-        box-shadow: -15px 15px 140px #0a6e644a, 15px -15px 140px #1a841d5a;
-    }
-    100% {
-        box-shadow: 15px 15px 140px #0a6e644a, -15px -15px 140px #1a841d5a;
-    }
-} */
-
-@keyframes rotateShadowFulcrum {
-    0% {
-        box-shadow: 15px 15px 140px #1683c1, -15px -15px 140px #e66700;
-    }
-    25% {
-        box-shadow: 15px -15px 140px #1683c1, -15px 15px 140px #e66700;
-    }
-    50% {
-        box-shadow: -15px -15px 140px #1683c1, 15px 15px 140px #e66700;
-    }
-    75% {
-        box-shadow: -15px 15px 140px #1683c1, 15px -15px 140px #e66700;
-    }
-    100% {
-        box-shadow: 15px 15px 140px #1683c1, -15px -15px 140px #e66700;
-    }
 }
 
 
@@ -216,7 +179,7 @@ header{
     user-select: none;
 }
 #logo:hover{
-    filter: drop-shadow(0px 0px 20px #056f99);
+    filter: drop-shadow(0px 0px 20px #999899);
     cursor: pointer;
 }
 
@@ -255,7 +218,7 @@ header{
 
 }
 #usertag:hover{
-    color: #056f99;
+    color: #999899;
     cursor: pointer;
 }
 #usertag-bottom{
@@ -264,11 +227,11 @@ header{
     padding: 4px 0 0 20px;
     margin: 0 0 20px 0;
     transition: all 0.3s;
-    color: #487cb192;
+    color: #EBEBEB;
 
 }
 #usertag-bottom:hover{
-    color: #487cb192;
+    color: #EBEBEB;
     cursor: pointer;
 }
 
@@ -333,7 +296,7 @@ header{
         background-color: rgb(21, 21, 21);
         color: white;
         border-radius: 30px;
-        filter: drop-shadow(0px 0px 0px #2E5B67);
+        filter: drop-shadow(0px 0px 0px #999899);
         height: auto;
         margin-top: 10px;
         margin-bottom: 20px;
@@ -363,7 +326,7 @@ header{
     }
     .official:hover{
         cursor: pointer;
-        filter: drop-shadow(0 0 8px #2E5B67);
+        filter: drop-shadow(0 0 8px #999899);
     }
     
     .partner{
@@ -484,4 +447,26 @@ header{
 
 .mp-contentitem:hover {
     background-color: rgb(29, 29, 29);
+}
+
+.joinbutton {
+    width: 300px;
+    padding: 13px;
+    background-color: #272727;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.3s;
+    margin: 10px 0 10px 0;
+}
+
+.joinbutton:hover{
+    background-color: #353535;
+    cursor: pointer;
+}
+
+#version {
+    font-size: 12px;
+    opacity: 0.6;
+    margin: 20px 0 0 0;
 }
