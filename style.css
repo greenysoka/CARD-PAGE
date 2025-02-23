@@ -16,7 +16,7 @@ br{
 }
 .official:hover{
     cursor: pointer;
-    filter: drop-shadow(0 0 8px #999899);
+    filter: drop-shadow(0 0 8px #7312BA);
 }
 
 .partner{
@@ -27,7 +27,7 @@ br{
 }
 .partner:hover{
     cursor: pointer;
-    filter: drop-shadow(0 0 8px #999899);
+    filter: drop-shadow(0 0 8px #7312BA);
 }
 
 
@@ -54,7 +54,7 @@ br{
 }
 
 #myprojectsspan{
-    color: #999899;
+    color: #7312BA;
 }
 
 #navbar span{
@@ -72,11 +72,11 @@ br{
 #content a{
     text-decoration: none;
     transition: all 0.3s;
-    color: #999899;
+    color: #7312BA;
 
 }
 #content a:hover{
-    color : #999899;
+    color : #7312BA;
 }
 
 
@@ -138,7 +138,7 @@ span{
 }
 .mainbutton:hover{
     cursor: pointer;
-    background-color:#999899;
+    background-color:#7312BA;
     color: rgb(223, 223, 223);
     scale: 1.1;
 }
@@ -162,7 +162,7 @@ span{
     display: grid;
     justify-content: center;
     transition: all 0.3s;
-    filter: drop-shadow(0px 0px 50px #EBEBEB);
+    filter: drop-shadow(0px 0px 50px #7312BA);
 
 }
 
@@ -179,7 +179,7 @@ header{
     user-select: none;
 }
 #logo:hover{
-    filter: drop-shadow(0px 0px 20px #999899);
+    filter: drop-shadow(0px 0px 20px #7312BA);
     cursor: pointer;
 }
 
@@ -218,7 +218,7 @@ header{
 
 }
 #usertag:hover{
-    color: #999899;
+    color: #7312BA;
     cursor: pointer;
 }
 #usertag-bottom{
@@ -227,11 +227,11 @@ header{
     padding: 4px 0 0 20px;
     margin: 0 0 20px 0;
     transition: all 0.3s;
-    color: #EBEBEB;
+    color: #7312BA;
 
 }
 #usertag-bottom:hover{
-    color: #EBEBEB;
+    color: #7312BA;
     cursor: pointer;
 }
 
@@ -296,7 +296,7 @@ header{
         background-color: rgb(21, 21, 21);
         color: white;
         border-radius: 30px;
-        filter: drop-shadow(0px 0px 0px #999899);
+        filter: drop-shadow(0px 0px 0px #7312BA);
         height: auto;
         margin-top: 10px;
         margin-bottom: 20px;
@@ -326,7 +326,7 @@ header{
     }
     .official:hover{
         cursor: pointer;
-        filter: drop-shadow(0 0 8px #999899);
+        filter: drop-shadow(0 0 8px #7312BA);
     }
     
     .partner{
