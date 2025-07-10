@@ -1,3 +1,7 @@
+:root {
+    --accent-color: #c0c0c0;
+}
+
 #arrowup{
     width: 40px;
     transition: all 0.3s;
@@ -16,7 +20,7 @@ br{
 }
 .official:hover{
     cursor: pointer;
-    filter: drop-shadow(0 0 8px #7312BA);
+    filter: drop-shadow(0 0 8px var(--accent-color));
 }
 
 .partner{
@@ -27,7 +31,7 @@ br{
 }
 .partner:hover{
     cursor: pointer;
-    filter: drop-shadow(0 0 8px #7312BA);
+    filter: drop-shadow(0 0 8px var(--accent-color));
 }
 
 
@@ -54,7 +58,7 @@ br{
 }
 
 #myprojectsspan{
-    color: #7312BA;
+    color: var(--accent-color);
 }
 
 #navbar span{
@@ -72,11 +76,11 @@ br{
 #content a{
     text-decoration: none;
     transition: all 0.3s;
-    color: #7312BA;
+    color: var(--accent-color);
 
 }
 #content a:hover{
-    color : #7312BA;
+    color : var(--accent-color);
 }
 
 
@@ -138,7 +142,7 @@ span{
 }
 .mainbutton:hover{
     cursor: pointer;
-    background-color:#7312BA;
+    background-color:var(--accent-color);
     color: rgb(223, 223, 223);
     scale: 1.1;
 }
@@ -162,8 +166,8 @@ span{
     display: grid;
     justify-content: center;
     transition: all 0.3s;
-    filter: drop-shadow(0px 0px 50px #7312BA);
-    border: 4px solid #7312BA;
+    filter: drop-shadow(0px 0px 50px var(--accent-color));
+    border: 4px solid var(--accent-color);
 
 }
 
@@ -180,7 +184,7 @@ header{
     user-select: none;
 }
 #logo:hover{
-    filter: drop-shadow(0px 0px 20px #7312BA);
+    filter: drop-shadow(0px 0px 20px var(--accent-color));
     cursor: pointer;
 }
 
@@ -219,7 +223,7 @@ header{
 
 }
 #usertag:hover{
-    color: #7312BA;
+    color: var(--accent-color);
     cursor: pointer;
 }
 #usertag-bottom{
@@ -228,11 +232,11 @@ header{
     padding: 4px 0 0 20px;
     margin: 0 0 20px 0;
     transition: all 0.3s;
-    color: #7312BA;
+    color: var(--accent-color);
 
 }
 #usertag-bottom:hover{
-    color: #7312BA;
+    color: var(--accent-color);
     cursor: pointer;
 }
 
@@ -297,7 +301,7 @@ header{
         background-color: rgb(21, 21, 21);
         color: white;
         border-radius: 30px;
-        filter: drop-shadow(0px 0px 0px #7312BA);
+        filter: drop-shadow(0px 0px 0px var(--accent-color));
         height: auto;
         margin-top: 10px;
         margin-bottom: 20px;
@@ -327,7 +331,7 @@ header{
     }
     .official:hover{
         cursor: pointer;
-        filter: drop-shadow(0 0 8px #7312BA);
+        filter: drop-shadow(0 0 8px var(--accent-color));
     }
     
     .partner{
